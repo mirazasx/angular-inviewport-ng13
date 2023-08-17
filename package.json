@@ -47,7 +47,7 @@
     "webpack:server": "webpack --config webpack.server.js --progress --colors",
     "release": "standard-version",
     "postrelease": "npm run packagr",
-    "prepare": "npm run build:client-and-server-bundles"
+    "prepare1": "npm run build"
   },
   "private": false,
   "devDependencies": {
