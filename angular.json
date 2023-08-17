@@ -20,7 +20,14 @@
             "assets": ["src/assets", "src/favicon.ico"],
             "styles": ["src/styles.scss"],
             "scripts": [],
-            "progress": false
+            "progress": false,
+
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
